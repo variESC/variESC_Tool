@@ -11,6 +11,6 @@ make clean
 make -j8
 rm -rf build/macos/obj
 cd build/macos
-zip esc_tool_vari_macos.zip `ls | grep -v '\.zip$'`
+zip -r esc_tool_vari_macos.zip `ls | grep -v '\.zip$'`
 ls | grep -v '\.zip$' | xargs rm -rf
 cd ../..
