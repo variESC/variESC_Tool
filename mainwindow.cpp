@@ -1645,7 +1645,7 @@ void MainWindow::on_actionFirmwareChangelog_triggered()
 
 void MainWindow::on_actionVESCProjectForums_triggered()
 {
-    QDesktopServices::openUrl(QUrl("http://variESC.com/forum"));
+    QDesktopServices::openUrl(QUrl("https://forum.esk8.news/t/variesc-tool-sro/46097"));
 }
 
 void MainWindow::on_actionLicense_triggered()
