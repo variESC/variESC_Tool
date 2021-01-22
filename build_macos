@@ -11,6 +11,8 @@ make clean
 make -j8
 rm -rf build/macos/obj
 cd build/macos
+# bundle up any dyanmically linked qt frameworks into the app.
+macdeployqt esc_tool_*.app
 zip -r esc_tool_vari_macos.zip `ls | grep -v '\.zip$'`
 ls | grep -v '\.zip$' | xargs rm -rf
 cd ../..
