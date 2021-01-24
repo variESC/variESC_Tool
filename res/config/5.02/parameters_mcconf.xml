@@ -2027,7 +2027,7 @@ p, li { white-space: pre-wrap; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;FOC_CC_DECOUPLING_CROSS_BEMF&lt;/span&gt;&lt;/p&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Both options above are enabled.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</description>
             <cDefine>MCCONF_FOC_CC_DECOUPLING</cDefine>
-            <valInt>2</valInt>
+            <valInt>0</valInt>
             <enumNames>FOC_CC_DECOUPLING_DISABLED</enumNames>
             <enumNames>FOC_CC_DECOUPLING_CROSS</enumNames>
             <enumNames>FOC_CC_DECOUPLING_BEMF</enumNames>
