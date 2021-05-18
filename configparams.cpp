@@ -878,7 +878,7 @@ bool ConfigParams::deSerialize(VByteArray &vb)
     auto signature = vb.vbPopFrontUint32();
 
     if (signature != getSignature()) {
-        qWarning() << "Invalid signature";
+        qWarning() << "Invalid signature:" << signature << "should be" << getSignature();
         return false;
     }
 
