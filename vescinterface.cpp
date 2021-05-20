@@ -261,7 +261,6 @@ VescInterface::VescInterface(QObject *parent) : QObject(parent)
             this, SLOT(fwVersionReceived(FW_RX_PARAMS)));
     connect(mCommands, SIGNAL(ackReceived(QString)), this, SLOT(ackReceived(QString)));
     connect(mMcConfig, SIGNAL(updated()), this, SLOT(mcconfUpdated()));
-    //emitMessageDialog("Debug 69548877", "Will read app config:", false, false);
     connect(mAppConfig, SIGNAL(updated()), this, SLOT(appconfUpdated()));
 
     connect(mCommands, &Commands::valuesSetupReceived, [this](SETUP_VALUES v) {
