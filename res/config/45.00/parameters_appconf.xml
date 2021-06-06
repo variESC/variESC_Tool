@@ -603,7 +603,7 @@ p, li { white-space: pre-wrap; }
             <vTx>9</vTx>
         </app_ppm_conf.ramp_time_neg>
         <app_ppm_conf.multi_esc>
-            <longName>Multiple ESCs Over CAN</longName>
+            <longName>Drive other ESCs w/CAN</longName>
             <type>5</type>
             <transmittable>1</transmittable>
             <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
@@ -1145,7 +1145,7 @@ p, li { white-space: pre-wrap; }
             <vTx>9</vTx>
         </app_adc_conf.ramp_time_neg>
         <app_adc_conf.multi_esc>
-            <longName>Multiple ESCs Over CAN</longName>
+            <longName>Drive other ESCs w/CAN</longName>
             <type>5</type>
             <transmittable>1</transmittable>
             <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
@@ -1443,7 +1443,7 @@ p, li { white-space: pre-wrap; }
             <enumNames>Polynomial</enumNames>
         </app_chuk_conf.throttle_exp_mode>
         <app_chuk_conf.multi_esc>
-            <longName>Multiple ESCs Over CAN</longName>
+            <longName>Drive other ESCs w/CAN</longName>
             <type>5</type>
             <transmittable>1</transmittable>
             <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
@@ -2312,7 +2312,7 @@ p, li { white-space: pre-wrap; }
             <vTx>9</vTx>
         </app_balance_conf.current_boost>
         <app_balance_conf.multi_esc>
-            <longName>Multiple ESCs Over CAN</longName>
+            <longName>Drive other ESCs w/CAN</longName>
             <type>5</type>
             <transmittable>1</transmittable>
             <description>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
@@ -3384,7 +3384,7 @@ p, li { white-space: pre-wrap; }
                     <param>app_ppm_conf.max_erpm_for_dir</param>
                     <param>app_ppm_conf.smart_rev_max_duty</param>
                     <param>app_ppm_conf.smart_rev_ramp_time</param>
-                    <param>::sep::Multiple ESCs over CAN</param>
+                    <param>::sep::Drive other ESCs w/CAN</param>
                     <param>app_ppm_conf.multi_esc</param>
                     <param>app_ppm_conf.tc</param>
                     <param>app_ppm_conf.tc_max_diff</param>
@@ -3421,7 +3421,7 @@ p, li { white-space: pre-wrap; }
                     <param>app_adc_conf.update_rate_hz</param>
                     <param>app_adc_conf.ramp_time_pos</param>
                     <param>app_adc_conf.ramp_time_neg</param>
-                    <param>::sep::Multiple ESCs over CAN-bus</param>
+                    <param>::sep::Drive other ESCs w/CAN</param>
                     <param>app_adc_conf.multi_esc</param>
                     <param>app_adc_conf.tc</param>
                     <param>app_adc_conf.tc_max_diff</param>
@@ -3473,7 +3473,7 @@ p, li { white-space: pre-wrap; }
                     <param>app_chuk_conf.use_smart_rev</param>
                     <param>app_chuk_conf.smart_rev_max_duty</param>
                     <param>app_chuk_conf.smart_rev_ramp_time</param>
-                    <param>::sep::Multiple ESCs over CAN-bus</param>
+                    <param>::sep::Drive other ESCs w/CAN</param>
                     <param>app_chuk_conf.multi_esc</param>
                     <param>app_chuk_conf.tc</param>
                     <param>app_chuk_conf.tc_max_diff</param>
