@@ -1,3 +1,6 @@
+== 45.00 ==
+* Introduced a new control mode that allows duty control with motor release.
+
 == 3.00 ==
 * Focus for this release: External hardware and BMS support.
  - Added hw type setting.

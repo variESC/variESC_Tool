@@ -129,14 +129,18 @@ void PpmMap::on_controlTypeBox_currentIndexChanged(int index)
     case 1: // Current
     case 3: // Current No Reverse With Brake
     case 4: // Duty Cycle
-    case 6: // PID Speed Control
+    case 6: // Duty Cycle w/ Coast
+    case 8: // PID Speed Control
+    case 10: // PPM_CTRL_TYPE_CURRENT_BRAKE_REV_HYST
+    case 11: // PPM_CTRL_TYPE_CURRENT_SMART_REV
         ui->display->setDual(true);
         ui->displayVesc->setDual(true);
         break;
 
     case 2: // Current No Reverse
     case 5: // Duty Cycle No Reverse
-    case 7: // PID Speed Control No Reverse
+    case 7: // Duty Cycle w/Coast No Reverse
+    case 9: // PID Speed Control No Reverse
         ui->display->setDual(false);
         ui->displayVesc->setDual(false);
         break;
